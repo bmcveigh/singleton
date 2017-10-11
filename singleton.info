@@ -1,0 +1,4 @@
+name = Singleton API
+description = Load in the petrknap/php-singleton PHP library through composer to utilize the singleton design pattern.
+core = 7.x
+package = Singleton
