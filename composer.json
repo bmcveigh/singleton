@@ -1,5 +1,0 @@
-{
-  "require": {
-    "petrknap/php-singleton": "^1.0"
-  }
-}

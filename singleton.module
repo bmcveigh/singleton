@@ -2,8 +2,5 @@
 
 /**
  * @file
- * Load in the petrknap/php-singleton PHP library through composer to utilize
- * the singleton design pattern.
+ * Provide support for singleton design pattern.
  */
-
-require_once 'vendor/autoload.php';
