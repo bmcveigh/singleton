@@ -5,6 +5,9 @@ namespace Drupal\Tests\singleton\Functional;
 use Drupal\singleton_test\SingletonTest;
 use Drupal\Tests\BrowserTestBase;
 
+/**
+ * Test to make sure the Drupal service pulls in Singleton class.
+ */
 class SingletonServiceTest extends BrowserTestBase {
 
   public static $modules = ['singleton_test'];

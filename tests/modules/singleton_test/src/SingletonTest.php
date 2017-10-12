@@ -12,6 +12,12 @@ class SingletonTest implements SingletonInterface {
 
   use SingletonTrait;
 
+  /**
+   * Test function used to check to make sure service works.
+   *
+   * @return string
+   *   Returns "bar".
+   */
   public function foo() {
     return t('bar');
   }
