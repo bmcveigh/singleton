@@ -14,14 +14,14 @@ trait SingletonTrait {
 
   /**
    * Returns instance, if instance does not exist then creates new
-   * one and returns it
+   * one and returns it.
    *
    * @return $this
    */
   public static function getInstance() {
     $self = get_called_class();
     if (!isset(self::$instances[$self])) {
-      self::$instances[$self] = new $self;
+      self::$instances[$self] = new $self();
     }
     return self::$instances[$self];
   }
