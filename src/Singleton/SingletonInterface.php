@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\singleton;
+namespace Drupal\singleton\Singleton;
 
 /**
  * Represents the required functions for a Singleton.
