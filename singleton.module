@@ -2,5 +2,5 @@
 
 /**
  * @file
- * Provide support for singleton design pattern.
+ * Provide structure for the singleton design pattern.
  */
